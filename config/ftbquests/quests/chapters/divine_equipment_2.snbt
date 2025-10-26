@@ -1,0 +1,1132 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "divine_equipment_2"
+	group: "103C318287AA2A0F"
+	id: "0E6DFB787AF77C36"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&5Законоблюстители &fбыли расой таинственных &eнебесных &fсуществ, чьей целью было вершить суд над богами, виновными в совершении преступлений, которые они считали &4«непростительными»&f."
+				""
+				"Одним из таких преступлений было воскрешение мёртвых. &6Поллукс &fбыл признан виновным в этом, когда вернул своего брата-близнеца из мёртвых, и в наказание их двоих заточили в два разных клинка."
+			]
+			id: "3580F0EA2CE8D2E2"
+			rewards: [
+				{
+					id: "6BF4E1B6366E12D1"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "2B6EDF6118A07466"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "190B476A4D673FFC"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Божественное правосудие?"
+			tasks: [{
+				id: "5DB24AC6804A64E5"
+				item: {
+					Count: 1
+					id: "cisco_mod:adjudicator"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&bБог грома &fподарил этот клинок &cхраброму воину&f, которому было поручено охранять врата на &eгромовые острова&f."
+				""
+				"Однажды он превратил им целое поле, кишащее врагами, в поле пепла."
+			]
+			id: "40014A5448A7A399"
+			rewards: [
+				{
+					id: "5AB7F0AFDEE1E2CB"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "581FB555DDBEFFA6"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "6A07B710996B09AD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Громовой клинок"
+			tasks: [{
+				id: "2DEDD2C5F8357260"
+				item: {
+					Count: 1
+					id: "cisco_mod:azure_thunder"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&aБожество ветра &eблагословило &fэти доспехи и подарило их первым поселенцам своего народа. С тех пор их носила &6правящая монархия &f&aземель ветра&f, а её правитель носил титул &2«Вентус Супреми»&f."
+				""
+				"&eВеликий принц&f, носивший эти доспехи, однажды разгромил вражеский отряд с такой яростью и скоростью, что выжившие докладывали о нападении урагана."
+			]
+			id: "78C1188FB63AB9F3"
+			rewards: [
+				{
+					id: "23C0CCC927EC5AB1"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "199EF524884DE3EA"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "206C499860FDEEA4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Доспехи, благословлённые ветром"
+			tasks: [
+				{
+					id: "097DAED0A78F27D6"
+					item: {
+						Count: 1
+						id: "cisco_mod:test_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46580E7835BD403F"
+					item: {
+						Count: 1
+						id: "cisco_mod:test_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12301E20DC909AA1"
+					item: {
+						Count: 1
+						id: "cisco_mod:test_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A0798488626EB83"
+					item: {
+						Count: 1
+						id: "cisco_mod:test_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Легендарное копьё, хранящее в себе могущественную &aмагию ветра&f. Никто не знает его истинного происхождения или цели его создания."
+				""
+				"Однако &9учёные &fпредполагают, что оно могло быть выковано в &2землях ветра &fи с тех пор затерялось во времени."
+			]
+			id: "03F0D1AADD54130B"
+			rewards: [
+				{
+					id: "7B9D378838F54A71"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "0FA7420719D96FBD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "219F626CD8F3879F"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Копьё небес."
+			tasks: [{
+				id: "1DEAE07B4D97EA75"
+				item: {
+					Count: 1
+					id: "cisco_mod:skysplitter"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			description: ["В этих &dкинжалах-близнецах &fзаключены &9души &fбратьев с нерушимой связью."]
+			id: "5EBA52F0EA2C8B2D"
+			rewards: [
+				{
+					count: 2
+					id: "6D71AB910E8344BC"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "0804809BF1989E03"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 3
+					id: "00DE986E3A956505"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Божественные близнецы"
+			tasks: [
+				{
+					id: "3127F4724E7D2F29"
+					item: {
+						Count: 1
+						id: "cisco_mod:pollux"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51D8E21E115842FE"
+					item: {
+						Count: 1
+						id: "cisco_mod:castor"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Некоторые считают, что это оружие было создано &bледяным богом&f, а его &aпотомки&f, используя его силу, завоевали &3ледяные племена &fи правили ими."
+				""
+				"Ходят слухи, что &4первый Падший король &fтакже был членом &3ледяного племени&f."
+			]
+			id: "3B3D87E1DD88AB6D"
+			rewards: [
+				{
+					id: "775FCD112BB21463"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "1315723A20FD2E02"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "30C51D98AA44373D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Зимняя буря"
+			tasks: [{
+				id: "2705A070DC211F49"
+				item: {
+					Count: 1
+					id: "cisco_mod:glacies"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Первый &eвознёсшийся герой&f, &6Циско&f. Он сражался вместе с безымянным героем, чтобы победить &4первого Падшего короля, Артаса&f."
+				""
+				"&fЕго &cсила &fпередавалась его &6потомкам&f, которые позже сражались против &6потомков &4Падшего короля&f."
+			]
+			icon: {
+				Count: 1
+				id: "cisco_mod:ascended_hero_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "652844E630256154"
+			rewards: [{
+				count: 6
+				id: "09880AE0C18DEDAD"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Лазурный вознёсшийся"
+			tasks: [
+				{
+					id: "52B4D8A9576B2C14"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "380A36C12812E974"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "454E027415607B47"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6A0C40AC71FE81"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			description: [
+				"500 лет спустя после событий &rвойны первого Падшего короля &4второй Падший король, Бьорн, &fатаковал и почти уничтожил &6королевство огня&f."
+				""
+				"&fВ эту эпоху &5принцесса Кармилла &fиз этого народа унаследовала &cсилу &fсвоего предка &eЦиско &fи стала &eвторым вознёсшимся героем&f, победив и отбросив &4силы павших&f."
+			]
+			icon: {
+				Count: 1
+				id: "cisco_mod:ascended_hero_violet_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "468D94096009130F"
+			rewards: [{
+				count: 6
+				id: "3362BE8E49F43EFF"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Фиолетовый вознёсшийся"
+			tasks: [
+				{
+					id: "1256A7ACAB582AD2"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_violet_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C67D9FF911F590B"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_violet_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57AD31B70BAEA7E6"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_violet_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "084144F8B39044BE"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_violet_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -13.5d
+		}
+		{
+			description: [
+				"Прошло ещё 250 лет, пока не восстала &4третий Падший король, Сильви&f, на этот раз с намерением завоевать, а не полностью уничтожить. Ей в значительной степени удалось объединить &bледяной&f, &eгромовой &fи &5окутанный тенью &fнароды в одну большую империю."
+				""
+				"&6Королевство огня &aобъединилось &fс &2народом ветра &fи &eсвященными народами&f, чтобы противостоять угрозе. В эту эпоху &6Артур, рыцарь &f&6королевства огня&f, унаследовал &cсилу &fсвоего предка и стал &eтретьим вознёсшимся героем&f. После многих лет непрерывных боёв он обратился к &4Сильви &fс предложением."
+				""
+				"До конца её жизни будет царить мир, а взамен он женится на ней, тем самым объединив родословные &4первого Падшего короля и &6Циско&f, гарантируя, что их потомки в конечном итоге обретут &cсилу и положение&f, чтобы объединить все королевства в одно."
+			]
+			icon: {
+				Count: 1
+				id: "cisco_mod:ascended_hero_rouge_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "3A3D55AD20EC67CA"
+			rewards: [{
+				count: 6
+				id: "1CC9499169AD319A"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Багровый вознёсшийся"
+			tasks: [
+				{
+					id: "2261E00BE8EF02E1"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_rouge_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73644FF7B8E791B5"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_rouge_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0742B6D3642E0860"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_rouge_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13610822FC3517CF"
+					item: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_rouge_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			description: [
+				"Чтобы оценить &1магические &fспособности, &dорден Совы &fтребовал от своих послушников настроить &1магический &4камень &fна местоположение их общежития."
+				""
+				"Те, кто не справлялся с этим в отведённое время и кому везло, считались бездарными и без исключений изгонялись из &dордена&f."
+				""
+				"Невезучие же... либо &5телепортировались &fв стену, в логово голодного существа, либо их ждал какой-нибудь другой очень печальный конец."
+			]
+			id: "7C993A2E0A1083B2"
+			rewards: [{
+				count: 2
+				id: "1D01AB6E98C50158"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Обряды и руны"
+			tasks: [{
+				id: "15EDCF7ED8F62399"
+				item: {
+					Count: 1
+					id: "cisco_mod:keystone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"Это &6искусное кольцо &fдарилось всем членам &dордена Совы&f, которые смогли достичь ранга &bмудреца&f."
+				""
+				"Этого можно было достичь, только поднявшись по служебной лестнице до &dадепта рыцаря-мага&f, а затем достигнув полного мастерства в одной из многих областей &1магии&f."
+				""
+				"Чтобы подтвердить своё мастерство, им нужно было создать уникальное &aновое &1заклинание &fв этой области и добавить его в &dвеликое хранилище&f."
+			]
+			id: "2F79470C2A41C34F"
+			rewards: [{
+				count: 2
+				id: "03D33F04535401D4"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Великолепие"
+			tasks: [{
+				id: "78F8C7C873C3D109"
+				item: {
+					Count: 1
+					id: "cisco_mod:band_of_brilliance"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			description: [
+				"Когда культ &5фанатичных магов &fиз &bледяного народа &fслучайно выпустил &0силы павших &fв мир, они не смогли остановить последовавшую за этим резню."
+				""
+				"&4Бьорн&f, генерал, служивший правящему племени, предложил запросить помощь у единственного народа, с которым у них были хорошие отношения, — &6королевства огня&f."
+				""
+				"&6Королевство огня&f, однако, &fотказало, посчитав эту проблему справедливым наказанием за их глупость. Когда королевская семья была убита, те самые маги, виновные в катастрофе, предложили решение."
+				""
+				"&dРитуал&f, который отправит сильнейшего из оставшихся в живых воинов в &0мир павших &fв надежде обрести &cсилу&f, необходимую для остановки &0сил павших&f. Они наложили заклинание на Бьорна, перенеся его в &0мир павших&f."
+				""
+				"Для него прошли годы, но он вернулся всего через несколько мгновений, облачённый в &4демонические доспехи&f, и смог лишь зловеще произнести одно слово: «Месть». &fСилы павших &fсъёжились в его присутствии, и с их &cмощью &fон начал кампанию по уничтожению всего, начав с &6королевства огня&f."
+			]
+			icon: {
+				Count: 1
+				id: "cisco_mod:bjorn_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "2D7E8A4D16EFB349"
+			rewards: [{
+				count: 6
+				id: "014F5C8179253726"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Багровый демон"
+			tasks: [
+				{
+					id: "35AFEEE318F529AB"
+					item: {
+						Count: 1
+						id: "cisco_mod:bjorn_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F0CEFCB609F7C78"
+					item: {
+						Count: 1
+						id: "cisco_mod:bjorn_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "696031A1CD4E6DD5"
+					item: {
+						Count: 1
+						id: "cisco_mod:bjorn_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A98C6B8672B10F9"
+					item: {
+						Count: 1
+						id: "cisco_mod:bjorn_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -18.0d
+		}
+		{
+			description: [
+				"&4Принцесса Сильви &fиз правящего &bледяного племени &fбыла известна как яростная воительница, но больше всего — своим выдающимся интеллектом и талантом к военной стратегии."
+				""
+				"Когда её отец был &cубит &fв бою, она была уверена, что взойдёт на &6трон&f. Однако у её дяди Рагнара были другие планы, и на совете он выступил против её правления, заручившись поддержкой большинства &bледяных племён&f."
+				""
+				"В результате &4Сильви &fбыла вынуждена отправиться в изгнание. Что именно произошло в тот период, неизвестно, но когда &4она &fвернулась, за ней шла армия &0падших легионеров&f."
+				""
+				"Она уничтожила войска своего дяди и лично отправила его в &3Нифльхейм&f. Предав мечу остальных лидеров-предателей и вернув себе право по рождению, &4она &fобратила свой взор на соседние королевства."
+				""
+				"Когда ей предложили называть себя &4«Падшей королевой»&f, она отказалась, настояв на том, чтобы вместо этого использовать титул &4«Падшего короля»&f, в честь тех, кто был до неё."
+			]
+			icon: {
+				Count: 1
+				id: "cisco_mod:sylvi_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "2968DC942BC62CC7"
+			rewards: [{
+				count: 6
+				id: "7D50715D3C650781"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Серебряный волк"
+			tasks: [
+				{
+					id: "128CB79CCCAF8522"
+					item: {
+						Count: 1
+						id: "cisco_mod:sylvi_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D02F5A713CF4415"
+					item: {
+						Count: 1
+						id: "cisco_mod:sylvi_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "493E5DF3D8CC2D8E"
+					item: {
+						Count: 1
+						id: "cisco_mod:sylvi_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "719275DD8F8A4B89"
+					item: {
+						Count: 1
+						id: "cisco_mod:sylvi_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2D7E8A4D16EFB349"]
+			description: [
+				"&4Бьорн &fвышел из &0мира павших &fлишь тенью себя прежнего. Несмотря на обретённую &cсилу&f, то, что осталось от его разума, казалось, было зажато в пагубной хватке нечестивой сущности."
+				""
+				"Он вышел из портала, сжимая &6Адское клеймо&f, диковинное оружие, которое, казалось, было проводником &0тёмного &fприсутствия. Оно шептало ему истории о славном разрушении, оставаясь вечно бдительным к тем, кто мог бы предать новоиспечённого &4Падшего короля&f."
+			]
+			id: "0D757F299CFAA528"
+			rewards: [{
+				count: 6
+				id: "63D69CC6F5A3F92A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Гнев демона"
+			tasks: [{
+				id: "66EBD2D220D5AF21"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:hellbrand"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["2968DC942BC62CC7"]
+			description: [
+				"Вскоре после своего 16-го дня рождения &bСильви &fвступила в свою первую битву против соседнего племени. Пока один за другим падали её личные телохранители, она яростно сражалась, казалось, становясь лишь сильнее с каждой минутой битвы."
+				""
+				"Хотя победа досталась дорогой ценой, её отец, &3король &3Ивар&f, захотел вознаградить её храбрость и приказал выковать &9безупречный клинок &fи &dзачаровать &fего в подарок своей &bявной наследнице&f."
+				""
+				"«&9Клинок&f, что будет становиться сильнее вместе с твоей волей», — сказал он, вкладывая его ей в руки. Этим клинком она вернёт себе право по рождению, обрушив его на шею своего дяди-предателя Рагнара и положив конец борьбе за престол."
+			]
+			id: "624C28CB554C3C4C"
+			rewards: [{
+				count: 6
+				id: "62F6783F774D8836"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Укус серебряного волка"
+			tasks: [{
+				id: "07DDD443A0AAF4D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:frostfang"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -22.5d
+		}
+		{
+			description: [
+				"Спустя столетия после эпохи &6Циско &fмы увидим восхождение &2Александра&f, его потомка, &2зелёного &fвознёсшегося героя и наследника объединённых родословных &eсвета &fи &4тьмы&f."
+				""
+				"Он обладал непревзойдённой властью над временем и гравитацией и в итоге объединил известные королевства в единую империю, будучи коронованным как &aверховный вознёсшийся&f."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:sovereign_ascendant_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5B7896F46FB789E8"
+			rewards: [{
+				count: 6
+				id: "3E6E8C17696A647F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Зелёный вознёсшийся"
+			tasks: [
+				{
+					id: "444A988C3D2BEC44"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:sovereign_ascendant_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D62D58BB0BFC263"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:sovereign_ascendant_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AA7DFE8EE518D9A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:sovereign_ascendant_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "015C93B47AB784E4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:sovereign_ascendant_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -18.0d
+		}
+	]
+	title: "{\"text\":\"Божественные реликвии\",\"color\":\"#DEA812\"}"
+}

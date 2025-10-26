@@ -1,0 +1,455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textfinis_dierumcolore8a736"
+	group: "6D7A192B0CC378A4"
+	icon: {
+		Count: 1
+		id: "cisco_mod:absolute_equillibrium"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 0.0f
+				}
+			}
+		}
+	}
+	id: "311E2D41844A4BEA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: ["Обменяйте свои &6сияющие солнечные осколки &fна &eидеальные &1самоцветы&f."]
+			id: "57F4F47A0E411EB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "499D09C64D542015"
+				table_id: 436462268599988983L
+				type: "choice"
+			}]
+			subtitle: "Обмен"
+			tasks: [{
+				consume_items: true
+				id: "7FF35FA022696D3C"
+				item: "cisco_mod:radiant_sunshard"
+				type: "item"
+			}]
+			title: "&6Сияющие солнечные осколки"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Откройте &dврата воспоминаний&f, чтобы сразиться с &cусиленными &fверсиями &6Циско &fи &4Падшего короля&f. В награду вы получите &eмонеты чемпиона &fи &6скрижали вознесения&f."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:cisco_ultra_gate"
+				}
+			}
+			id: "4117F0B665E3CA2D"
+			rewards: [
+				{
+					id: "390CB681D7AEB1D1"
+					item: "cisco_mod:divine_core"
+					type: "item"
+				}
+				{
+					id: "71F73C496349C87F"
+					item: "cisco_mod:divine_core"
+					type: "item"
+				}
+			]
+			subtitle: "Врата воспоминаний"
+			tasks: [
+				{
+					id: "60DADA22FA0C285F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:cisco_ultra_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61384F21EA25B25A"
+					item: "cisco_mod:tabletof_ascension"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: ["&4Врата катаклизма &fпозволят вам сразиться с &cусиленными &fверсиями &4боссов катаклизма &fи получить &6сияющие солнечные осколки&f."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:large_cataclysm_gate"
+				}
+			}
+			id: "4288F14E88A87640"
+			rewards: [
+				{
+					id: "2827FCCE98A9E346"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "5CAD9A6B291E0071"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Врата катаклизма"
+			tasks: [
+				{
+					id: "08BA2A07B9C99E93"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:large_cataclysm_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7772AAD89D8528AA"
+					item: "cisco_mod:radiant_sunshard"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["238511D8E52BB53E"]
+			description: [
+				"Пришло время &aвозобновить &eиспытание&f. &1Внимательно &fпрочтите описания каждой награды и выберите любую из них, чтобы начать ваше путешествие заново."
+				""
+				"&aОткрывает &fдоступ к большинству &5Загадок&f."
+				""
+				"&9Лазурный режим &fповышает уровень мира во всех измерениях на 150. &4(Будьте осторожны на серверах: выбор этой награды несколькими игроками суммирует эффект.)"
+				""
+				"&dФиолетовый режим &fсбрасывает главу «Деус», позволяя вам сразиться со всеми боссами на повышенных уровнях."
+				""
+				"&4Багровый режим &fсбрасывает главу «Семь Смертных Грехов», позволяя вам снова сразиться с боссами на повышенных уровнях."
+			]
+			icon: {
+				Count: 1
+				id: "cisco_mod:ascended_hero_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "3C1CDBC749329522"
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/autoleveling level add 150"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "56FAB134FC2045F1"
+					team_reward: true
+					title: "Повысить уровень мира на 150"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
+					icon: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_violet_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "65B7C9A1856B5962"
+					title: "Сбросить главу «Деус»"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 3B93984312100331"
+					icon: {
+						Count: 1
+						id: "cisco_mod:ascended_hero_rouge_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "28A470F5EE6AA58B"
+					title: "Сбросить главу «Семь Смертных Грехов»"
+					type: "command"
+				}
+			]
+			subtitle: "Новое испытание"
+			tasks: [
+				{
+					advancement: "cisco_mod:regicide"
+					criterion: ""
+					id: "3CC6BF97B89DF22D"
+					title: "Получить достижение «Цареубийство»"
+					type: "advancement"
+				}
+				{
+					id: "26D9FA8E0423F0F9"
+					title: "Нажмите, чтобы завершить."
+					type: "checkmark"
+				}
+			]
+			title: "Вознесённая сложность"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C1CDBC749329522"]
+			description: [
+				"&4Сбросьте &fглаву «Деус» и сразите всех боссов на повышенной сложности."
+				""
+				"&2Открывает &fдоступ к &cболее сильным &5Загадкам&f."
+				""
+				"Только для &eсамых отважных &fискателей приключений."
+			]
+			id: "10AAB70F4D035819"
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/autoleveling level add 300"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "cisco_mod:absolute_equillibrium"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "5EF90F8D0DD4EB55"
+					team_reward: true
+					title: "Повысить уровень мира на 300"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2B68827CE773658D"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
+					icon: "minecraft:writable_book"
+					id: "7EBB838C61DC8E17"
+					title: "Сбросить главу «Деус»"
+					type: "command"
+				}
+			]
+			subtitle: "Божественное испытание"
+			tasks: [
+				{
+					id: "2641BEB0376682DB"
+					item: {
+						Count: 1
+						id: "cisco_mod:absolute_equillibrium"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F80886E60B457D5"
+					title: "Нажмите, чтобы завершить."
+					type: "checkmark"
+				}
+			]
+			title: "Божественная сложность"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10AAB70F4D035819"]
+			description: [
+				"Повысьте уровень мира на 500 и сбросьте главу «Деус», чтобы снова сразиться с боссами. С врагов &d400–750 &fуровня будут выпадать более редкие материалы, такие как &bсамоцветная пыль &fи &9печати для инкрустации&f."
+				""
+				"&fА с врагов выше &d750 &fуровня будут выпадать очень ценные предметы, например &6пылающий пепел &fи &eмонеты чемпиона&f."
+				""
+				"&aОткрывает &fдоступ к самым &4могущественным &5Загадкам&f."
+			]
+			icon: {
+				Count: 1
+				id: "cisco_mod:bjorn_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "64914C7972F93909"
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/autoleveling level add 500"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "cisco_mod:sylvi_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "0796735DCE56B515"
+					team_reward: true
+					title: "Повысить уровень мира на 500"
+					type: "command"
+				}
+				{
+					auto: "disabled"
+					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:bjorn_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "6246CE0BB0E2F0D1"
+					team_reward: false
+					title: "Сбросить главу «Деус»"
+					type: "command"
+				}
+			]
+			subtitle: "Сложность 'Хельхейм'"
+			tasks: [{
+				id: "003F11D8E5234967"
+				title: "Нажмите, чтобы завершить"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&6Корона &fизначально была создана &eЗаконоблюстителями &fкак орудие для наказания непокорных &6богов&f."
+				""
+				"&fОна жестоко вырывала все приятные воспоминания из сознания жертвы, а затем испепеляла их вспышкой фиолетового пламени. Как вы можете себе представить, длительное воздействие этого устройства сломило бы даже самые стойкие умы."
+				""
+				"Однако некоторые боги-мазохисты каким-то образом получали извращённое удовольствие от её использования и позже создали копии этого устройства для своих личных утех."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:crown_of_debilitating_desire"
+			}
+			id: "3D2D32EB52545FB0"
+			rewards: [{
+				id: "1558531A232DDA29"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:crown_of_debilitating_desire"
+				}
+				type: "item"
+			}]
+			subtitle: "Нисхождение в безумие"
+			tasks: [{
+				id: "5FB2B5D5120B2F78"
+				title: "Нажмите, чтобы завершить"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+	]
+	title: "{\"text\":\"Конец времён\",\"color\":\"#E8A736\"}"
+}

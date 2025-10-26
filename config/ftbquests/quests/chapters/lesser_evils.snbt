@@ -1,0 +1,184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lesser_evils"
+	group: "6D7A192B0CC378A4"
+	icon: {
+		Count: 1
+		id: "mutantmonsters:mutant_skeleton_skull"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 0.0f
+				}
+			}
+		}
+	}
+	id: "2FA380C2B515B7A4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Вооружённый огромным луком, этот мутировавший &7скелет &fпредставляет собой серьёзную угрозу на расстоянии."
+				""
+				"Он яростно отбрасывает врагов, которые подходят на &4расстояние удара&f."
+			]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "31FBA523D6A35AA4"
+			rewards: [{
+				count: 25
+				id: "2DAF8180CC1B5428"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Скелет-снайпер"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "572A67B5EA3E3EF9"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Убить мутанта скелета"
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"Этот мутировавший &aкрипер &fобладает повышенной подвижностью и может атаковать в ближнем бою."
+				""
+				"Получив смертельный урон, он заряжается и &4мощно взрывается&f, оставляя после себя яйцо."
+			]
+			id: "46E426066D19DABA"
+			rewards: [{
+				count: 20
+				id: "69D9C42B80884283"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Крипер-катастрофа"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "minecraft:creeper_head"
+				id: "019B895F794DFBF4"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Убить мутанта крипера"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Этого мутировавшего &dэндермена &fможно найти в &5Энде&f, и он значительно опаснее своих младших собратьев."
+				""
+				"Получив смертельный урон, он пытается притянуть к себе ближайших врагов и нанести им урон."
+			]
+			id: "16E8B9A8E0CC70B6"
+			rewards: [{
+				count: 35
+				id: "65EB24A8CD90C834"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Непредсказуемый эндермен"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "supplementaries:enderman_head"
+				id: "3D97E4079C9D9E35"
+				title: "Убить мутантов эндерменов"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Убить мутировавшего эндермена"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Эта мутировавшая разновидность &2зомби &fпопытается подбросить вас в воздух, а затем быстро швырнуть обратно на землю."
+				""
+				"Его нужно &6поджечь&f, иначе он будет &aрегенерировать&f."
+			]
+			id: "417CD90BAD812204"
+			rewards: [{
+				count: 25
+				id: "5454557E6A779714"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Неистовый зомби"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "minecraft:zombie_head"
+				id: "70B536B5EB9631DA"
+				title: "Убить мутанта зомби"
+				type: "kill"
+				value: 3L
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+	]
+	title: "{\"text\":\"Меньшее зло\",\"color\":\"#DE1278\"}"
+}

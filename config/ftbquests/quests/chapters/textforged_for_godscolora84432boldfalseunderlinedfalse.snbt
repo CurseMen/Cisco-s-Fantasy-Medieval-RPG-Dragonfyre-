@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textforged_for_godscolora84432boldfalseunderlinedfalse"
+	group: "6DA56B7951D57C80"
+	id: "4373AF9FCBF3EDCA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Легенды гласят о луке, сотканном из сущности падающего дождя и остывшего звёздного света."
+				""
+				"&b«Безмятежный Ливень» &fстреляет лучами чистого звёздного света, полностью игнорируя невосприимчивость врагов к стрелам, что делает его абсолютным оружием для любого состоявшегося лучника."
+			]
+			id: "6CEA4BBBA399DF4F"
+			rewards: [{
+				count: 100
+				id: "63F9F36FECA81E42"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Падающие звёзды"
+			tasks: [{
+				id: "5A2CC42EF875AFE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Небесная стрельба"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"После поражения &4Падшего короля &f&6Циско &fдостиг &9лазурного вознесения&f, наделив &6«Равновесие» &fсвоей новообретённой священной силой."
+				""
+				"&e«Абсолютное Равновесие» &fнаносит урон, равный части жизненной силы врага, гарантируя, что его владелец никогда не будет превзойдён."
+			]
+			id: "0C6531A8C19D0F9F"
+			rewards: [{
+				count: 150
+				id: "11F434215A0DA0C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Гармония восстановлена"
+			tasks: [{
+				id: "2C1822FE87EBDBA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:absolute_equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Абсолютное Равновесие"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"В сердце Зелёной Глубины, где океан встречается с лесом, а тишина гудит силой, таится шёпот забытого оружия."
+				""
+				"&d«Аквафлора» &fпо-настоящему &fрасцветает при нанесении критических ударов, позволяя вам истреблять врагов с точностью и изяществом."
+			]
+			id: "7174070087002A46"
+			rewards: [{
+				count: 100
+				id: "65DA60E88A555788"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Ярость лепестков"
+			tasks: [{
+				id: "1C405390B99FC3B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Цветочный всплеск"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"В альтернативной временной линии &4Падший король &fубеждает безымянного героя предать &6Циско&f."
+				""
+				"&6Циско &fполностью принимает тьму внутри себя, становясь падшим героем, а «Сумерки» обретают свою окончательную форму."
+				""
+				"&c«Высшие Сумерки» &fобладают таинственной жаждой крови и способны принимать разумную оборонительную форму, когда их не используют, чтобы всё равно участвовать в битве."
+			]
+			id: "0BC487662704AE6E"
+			rewards: [{
+				count: 200
+				id: "5759A48786E5CD1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Баланс без границ"
+			tasks: [{
+				id: "00C592DCC38094B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:supreme_nightfall"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Высшие Сумерки"
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	title: "{\"text\":\"Легендарное оружие\",\"color\":\"#f5ce42\",\"bold\":false,\"underlined\":false}"
+}

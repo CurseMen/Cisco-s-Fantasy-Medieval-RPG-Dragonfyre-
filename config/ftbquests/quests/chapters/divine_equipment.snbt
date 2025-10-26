@@ -1,0 +1,683 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "divine_equipment"
+	group: "103C318287AA2A0F"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "cisco_mod:equillibrium"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 1.0f
+				}
+			}
+		}
+	}
+	id: "08FFA9A856E66C0A"
+	images: [{
+		height: 15.0d
+		image: "kubejs:textures/fellkingpose1.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -13.0d
+		y: -3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Затем &6Циско &fсоздал &6искусный &fкомплект доспехов &fи один за другим снискал благосклонность &eбогов&f. Он получил четыре уникальных благословения — по одному на каждую часть доспеха."
+				""
+				"&cСила&f, заключённая в доспехах, поначалу была слишком велика для его тела. Однако благодаря глубокой медитации и сосредоточенности он научился &dконтролировать &fи даже усиливать её своей собственной &cсилой&f."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:ciscos_armor_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "340BCEB3585A311C"
+			rewards: [{
+				count: 7
+				id: "21A7FB9FD1B51976"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Избранный чемпион"
+			tasks: [
+				{
+					id: "54178A1D799CBA7D"
+					item: {
+						Count: 1
+						id: "cisco_mod:ciscos_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2B77793B5729F6"
+					item: {
+						Count: 1
+						id: "cisco_mod:ciscos_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6943B96722573F85"
+					item: {
+						Count: 1
+						id: "cisco_mod:ciscos_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0220C612F6045F71"
+					item: {
+						Count: 1
+						id: "cisco_mod:ciscos_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{\"text\":\"Божественные доспехи\",\"color\":\"#DCC815\",\"bold\":false,\"underlined\":false}"
+			x: 1.25d
+			y: -5.0d
+		}
+		{
+			description: [
+				"&6Циско &fнуждался в &cмощном оружии&f, поэтому он отправился в глубины &4&fада в поисках самого прочного &0материала&f, известного в то время."
+				""
+				"Из него он выковал &cклинок&f, украсив его более мягкими и &6искусными металлами."
+			]
+			id: "4CC94BA5994DB6F7"
+			rewards: [{
+				count: 3
+				id: "29A628FB5E84FF20"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Спящий гигант"
+			tasks: [{
+				id: "470D6AD56DD0046D"
+				item: {
+					Count: 1
+					id: "cisco_mod:slumbering_equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 6.25d
+		}
+		{
+			description: ["&6Циско &fвставил &4самоцвет&f, и &cклинок &fперед ним &eвспыхнул&f. Враги, поражённые им, сгорали в &dдраконьем пламени&f."]
+			id: "4D13391578E4A553"
+			rewards: [{
+				count: 7
+				id: "693904D6A251D92A"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Клинок равновесия"
+			tasks: [{
+				id: "01B7E8AD99E9A72C"
+				item: {
+					Count: 1
+					id: "cisco_mod:equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["4D13391578E4A553"]
+			dependency_requirement: "all_started"
+			description: [
+				"Друг &6Циско&f, легендарный кузнец &4Артас&f, обслуживая клинок, подумал, что было бы эффективнее использовать его более лёгкий вариант. Это позволило бы наносить более быстрые и ловкие атаки."
+				""
+				"&6Циско &fнеохотно позволил &4ему &fвнести изменения, получив заверение, что тот вернёт клинок в первоначальное состояние, если потребуется."
+			]
+			id: "35898195DCC583A6"
+			rewards: [
+				{
+					id: "3C3C655E53E6F352"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "14E73DA9A768B6F6"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Размер имеет значение"
+			tasks: [{
+				id: "40C05FACCF503096"
+				item: {
+					Count: 1
+					id: "cisco_mod:refined_equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.25d
+		}
+		{
+			description: [
+				"&4Непредвиденный враг&f... его братья и сёстры на &eнебесах &fубиты... на грани смерти, в порыве чистой ярости, истинная &cсила &6Циско &r&fнаконец пробудилась."
+				""
+				"Он почувствовал хватку чего-то &0зловещего&f, но вместе с тем и &cсилу&f, превосходящую всё, что он ощущал раньше. &0Осквернённый&f, но &eвозрождённый&f, он поклялся отомстить за павших."
+			]
+			id: "4B3AED224389528F"
+			rewards: [{
+				count: 3
+				id: "049329C71CABE6ED"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Павший герой восходит"
+			tasks: [{
+				id: "3CE11BE2A58E2307"
+				item: {
+					Count: 1
+					id: "cisco_mod:nightfall"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -8.75d
+		}
+		{
+			description: [
+				"&6Циско &fпрорубался сквозь, казалось, тысячи воинов &4Падшего короля&f. Однако его &cсила &fлишь росла с каждым взмахом &cСумерек&f."
+				""
+				"Возможно, &4он &fустал от некомпетентности своего &0легиона &fили счёл за лучшее покончить с &6Циско &4собственноручно&f, но &4Падший король &fобрушился на &6Циско &fс несравненной яростью. После нескольких часов ожесточённой битвы &6Циско &fстоял над его поверженным телом."
+			]
+			id: "45D8D5B8D47651DF"
+			rewards: [
+				{
+					id: "06CAB40BC8570013"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "71893CB6ABE2AC6E"
+					item: "cisco_mod:darksteel"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Какой ценой?"
+			tasks: [
+				{
+					id: "53D5CC05466B385D"
+					item: {
+						Count: 1
+						id: "cisco_mod:fallen_hero_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47BBD902328916C4"
+					item: {
+						Count: 1
+						id: "cisco_mod:fallen_hero_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C550D8346D71F37"
+					item: {
+						Count: 1
+						id: "cisco_mod:fallen_hero_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C3A4594A7C39BAB"
+					item: {
+						Count: 1
+						id: "cisco_mod:fallen_hero_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{\"text\":\"Павший герой\",\"color\":\"red\",\"bold\":false,\"underlined\":false}"
+			x: 1.25d
+			y: -12.5d
+		}
+		{
+			description: [
+				"&6Циско &fусиливал и улучшал &4самоцвет &fдо тех пор, пока &cсила &fвнутри него не стала переполнять его так яростно, что он подумал, будто самоцвет поглотит сам себя."
+				""
+				"Когда &4самоцвет &fнаконец стабилизировался, он был готов послужить своей цели."
+			]
+			id: "5AFA5CB101E31BE4"
+			rewards: [{
+				count: 3
+				id: "7940159F83CA50B6"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Багровое сияние"
+			tasks: [{
+				id: "022397B35A0E22E3"
+				item: "cisco_mod:radiant_ruby"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&6Циско &fопустился на колени и поднял шлем &4Падшего короля&f, обнажив не лицо демона, а окровавленную ухмылку &4Артаса&f... кузнеца... того, кого он считал близким другом."
+				""
+				"&4Артас &fмедленно поднял руку... Последовала короткая пауза, а затем внезапная жгучая боль в груди &6Циско &fполностью парализовала его. &6Циско &fвидел, как &0тёмная энергия &fпокидает его тело и переходит к &4Артасу&f. Румянец вернулся на лицо &4Артаса&f, когда &4он &fснова встал на ноги."
+			]
+			id: "479168EE1144DBB1"
+			rewards: [
+				{
+					id: "0BAE1BAD5C935254"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 7
+					id: "7DE6D63453D0A926"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Друзья и враги"
+			tasks: [
+				{
+					id: "4F36F8D02DC09DCD"
+					item: {
+						Count: 1
+						id: "cisco_mod:fell_king_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0800CD5694D83FFC"
+					item: {
+						Count: 1
+						id: "cisco_mod:fell_king_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D25A92BD4B6C973"
+					item: {
+						Count: 1
+						id: "cisco_mod:fell_king_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37475132E347887F"
+					item: {
+						Count: 1
+						id: "cisco_mod:fell_king_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{\"text\":\"Падший король\",\"color\":\"dark_red\",\"bold\":false,\"underlined\":false}"
+			x: 6.25d
+			y: -12.5d
+		}
+		{
+			description: [
+				"Сильно ослабевший &6Циско &fтщетно пытался подняться на ноги... Но намеренный и яростный удар &5Падшего Рагнарёка &fразбил его нагрудник и сбросил его с края ближайшего утёса."
+				""
+				"Падая в бездну, он видел, как некогда знакомое лицо &4Артаса &fсмотрит на него сверху вниз, а глаза его пылают &0тёмной энергией &fи полным презрением. &4Тот &fмедленно повернулся и ушёл, оставив &6Циско &fна произвол судьбы."
+			]
+			id: "49EB4B9AE3365883"
+			rewards: [
+				{
+					id: "30601979DFD73D7A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "1419223081ADF0CB"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 2.5d
+			subtitle: "Рагнарёк"
+			tasks: [{
+				id: "1FDD850C578CBABF"
+				item: {
+					Count: 1
+					id: "cisco_mod:fell_ragnarok"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.25d
+			y: -12.5d
+		}
+		{
+			description: [
+				"&6Циско &fиспользовал остатки своей &4силы&f, чтобы телепортироваться в &dизмерение Энда&f, успешно &fизбежав неминуемой гибели. &fТам &5Эндер дракон &fприняла его как своего сородича, пока он медленно восстанавливался."
+				""
+				"&6Циско &fпонял, что ему &fне хватает &4силы &fпобедить &4Падшего &4короля &fв одиночку, &fи потому воззвал к помощи чемпиона. Однако он хотел испытать &4силу &fчемпиона, прежде чем позволить ему сразиться с &4Артасом&f."
+				""
+				"Произнеся эти слова чемпиону: «Создай и используй &6талисман &6испытания&f, и мы начнём твоё &bиспытание»."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:ciscos_armor_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "134D9801D13D58F5"
+			rewards: [
+				{
+					id: "504EEB7552C74A8A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42EDE716E8B3B407"
+					table_id: 3194438759912871293L
+					type: "choice"
+				}
+				{
+					count: 15
+					id: "2161D0D50769FCDA"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Вызов Циско"
+			tasks: [
+				{
+					advancement: "cisco_mod:anewlegend"
+					criterion: ""
+					id: "2E3A6C1C8CB0E12A"
+					type: "advancement"
+				}
+				{
+					id: "5A12A630E7A5BB5A"
+					item: "cisco_mod:talisman_of_challenge"
+					type: "item"
+				}
+			]
+			title: "Испытание Циско"
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["134D9801D13D58F5"]
+			description: [
+				"Во время путешествия &6Циско &fв &5павший мир &fв поисках способа победить &4Падшего короля &fон наткнулся на солдат &4Артаса&f, добывающих таинственный &0тёмный кристалл. &fПосле тщательного изучения он понял, что именно этот кристалл был источником огромной &cсилы &4Артаса&f."
+				""
+				"После множества экспериментов &6Циско &fсмог вмешаться в уникальную &9магическую &fсигнатуру кристалла, чтобы создать ослабляющий эффект."
+				""
+				"Он поручил чемпиону создать &5алтарь&f, используя его как врата, а затем &0осквернить &eталисман &fс помощью &0падших фрагментов. &fПосле победы над &4Артасом &fалтарь должен был извлечь его изначальную сущность."
+				""
+				"И снова он обратился к своему чемпиону: «&fИспользуй &0осквернённый &eталисман &fна &5алтаре&f, победи &4Падшего &4короля &fи займи своё законное место божества»."
+			]
+			id: "238511D8E52BB53E"
+			rewards: [
+				{
+					id: "7CB3486D023E7AF7"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 2
+					id: "49C394E32D2CFD2B"
+					item: "cisco_mod:tabletof_ascension"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3E767F2AFF00B600"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Свержение Падшего короля"
+			tasks: [
+				{
+					entity: "cisco_mod:fellkingboss"
+					icon: {
+						Count: 1
+						id: "cisco_mod:fell_king_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					id: "06567CB7308DCCD2"
+					title: "Победить Падшего короля"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "13B0806F755967AE"
+					item: "cisco_mod:podiumofpurgatory"
+					type: "item"
+				}
+				{
+					id: "2DBF64C06FDAD32B"
+					item: "cisco_mod:tainted_talisman"
+					type: "item"
+				}
+			]
+			title: "Победить Падшего короля"
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Сын &fкрестьянки &fи &0неизвестного бога&f, &6Cisco &fрос не сильнее обычного смертного. Несмотря на это, его единокровные братья и сёстры на &eнебесах &fблагосклонно взирали на него, вмешиваясь в ключевые моменты его жизни."
+				""
+				"Однако у &6Cisco &fбыла природная склонность к &1мистическим &fвещам, и как только он достиг совершеннолетия, то покинул свою маленькую деревню, чтобы вступить в &dорден Совы &fв &2Великой цитадели."
+				""
+				"Там он довольно быстро достиг престижного звания &bмудреца&f. Со временем &6Cisco &fзаскучал в цитадели и решил отправиться в путешествие, чтобы по-настоящему прославить своё имя. Используя свои знания &9алхимии&f, он создал &4рубин&f, который помог бы ему заимствовать и использовать &eбожественные дары &fсвоих более могущественных &eсородичей&f."
+			]
+			id: "288608ED892DC5EB"
+			rewards: [{
+				count: 2
+				id: "600FF15BCE3E202C"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Красный как рубин"
+			tasks: [{
+				id: "4F241D893DBF361F"
+				item: "cisco_mod:divine_core"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 10.0d
+		}
+	]
+	title: "{\"text\":\"Наследие Циско\",\"color\":\"dark_red\",\"bold\":true,\"underlined\":false}"
+}
